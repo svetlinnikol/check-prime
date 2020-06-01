@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+
+  check-prime:
+    image: check-prime-service
+    ports:
+     - 8080:8080
+    environment:
+      SPRING_APPLICATION_NAME: check-prime-service
